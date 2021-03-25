@@ -37,3 +37,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 }
+
+class User extends Model
+{
+public function posts()
+{
+return $this->hasMany('App\Post');
+}}
