@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 use App\Post;
 use App\Tag;
 
-class HomeController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
